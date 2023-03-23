@@ -1,0 +1,16 @@
+Bisa ada nol atau lebih elifbagian, dan elsebagian itu opsional. Kata kunci ' elif' adalah kependekan dari 'else if', dan berguna untuk menghindari indentasi yang berlebihan. Sebuah if… elif… elif… urutan adalah pengganti switchatau casepernyataan yang ditemukan dalam bahasa lain.
+Pernyataan fordalam Python sedikit berbeda dari yang biasa Anda gunakan di C atau Pascal. Daripada selalu mengulangi perkembangan aritmatika angka (seperti di Pascal), atau memberi pengguna kemampuan untuk menentukan langkah iterasi dan menghentikan kondisi (sebagai C), pernyataan Python mengulangi item dari urutan apa pun (daftar atau fora string), dalam urutan yang muncul dalam urutan.
+Jika Anda perlu mengulangi urutan angka, fungsi bawaan range()akan berguna.
+Pernyataan break, seperti di C, keluar dari penutup foratau whileloop terdalam.
+
+Pernyataan pengulangan mungkin memiliki elseklausa; itu dieksekusi ketika loop berakhir melalui kelelahan iterable (dengan for) atau ketika kondisi menjadi salah (dengan while), tetapi tidak ketika loop diakhiri dengan breakpernyataan.
+Pernyataan itu passtidak menghasilkan apa-apa. Itu dapat digunakan ketika pernyataan diperlukan secara sintaksis tetapi program tidak memerlukan tindakan
+Pernyataan matchmengambil ekspresi dan membandingkan nilainya dengan pola berurutan yang diberikan sebagai satu atau lebih blok kasus.
+Kata kunci memperkenalkan definisidef fungsi . Itu harus diikuti oleh nama fungsi dan daftar parameter formal yang dikurung. Pernyataan yang membentuk isi fungsi dimulai dari baris berikutnya, dan harus diberi indentasi.
+Bentuk yang paling berguna adalah menentukan nilai default untuk satu atau beberapa argumen. Ini menciptakan fungsi yang dapat dipanggil dengan lebih sedikit argumen daripada yang diizinkan.
+Fungsi juga bisa dipanggil menggunakan argumen kata kunci dari form kwarg=value.
+Secara default, argumen dapat diteruskan ke fungsi Python baik dengan posisi atau secara eksplisit dengan kata kunci. Untuk keterbacaan dan kinerja, masuk akal untuk membatasi cara argumen dapat diteruskan sehingga pengembang hanya perlu melihat definisi fungsi untuk menentukan apakah item diteruskan oleh posisi, posisi atau kata kunci, atau kata kunci.
+Melihat ini sedikit lebih detail, dimungkinkan untuk menandai parameter tertentu sebagai positional-only . Jika positional-only , urutan parameter penting, dan parameter tidak dapat diteruskan dengan kata kunci. Parameter khusus posisi ditempatkan sebelum /(garis miring). The /digunakan untuk secara logis memisahkan parameter hanya posisional dari parameter lainnya. Jika tidak ada /dalam definisi fungsi, tidak ada parameter hanya posisi.
+Untuk menandai parameter sebagai hanya kata kunci , yang menunjukkan bahwa parameter harus diteruskan oleh argumen kata kunci, tempatkan an *di daftar argumen tepat sebelum parameter khusus kata kunci pertama .
+Terakhir, opsi yang paling jarang digunakan adalah menentukan bahwa suatu fungsi dapat dipanggil dengan jumlah argumen yang berubah-ubah. Argumen ini akan dibungkus dalam sebuah tuple (lihat Tuples and Sequences ). Sebelum jumlah argumen variabel, nol atau lebih argumen normal dapat terjadi.
+Fungsi anonim kecil dapat dibuat dengan lambdakata kunci. Fungsi ini mengembalikan jumlah dari dua argumennya: . 
